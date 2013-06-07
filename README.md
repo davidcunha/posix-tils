@@ -1,4 +1,4 @@
-posix-tils
+POSIX-tils
 ==========
 
 Some POSIX cool things
