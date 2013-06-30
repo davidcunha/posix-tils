@@ -7,12 +7,12 @@
 
 int main()
 {
-/* the id for the shared memory segment */
-int segment_id;
-/* pointer to the shared memory segment */
-char *shared_memory;
-/* the size (bytes) of the shared memory segment */
-const int size = 4096;
+  /* the id for the shared memory segment */
+  int segment_id;
+  /* pointer to the shared memory segment */
+  char *shared_memory;
+  /* the size (bytes) of the shared memory segment */
+  const int size = 4096;
 
   /* allocate memory segment for further sharing */
   segment_id = shmget(IPC_PRIVATE, size, S_IRUSR | S_IWUSR);
